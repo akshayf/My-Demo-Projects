@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
 
         val randomInt = Random().nextInt(6)+1;
 
-
         val drawableResources =  when (randomInt){
 
             1 -> R.drawable.dice_1
